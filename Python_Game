@@ -1,0 +1,12 @@
+secret_num = 9
+guess_count = 0
+
+while guess_count<3:
+    guess=int(input("Guess it baby : "))
+    guess_count = guess_count +1
+    if guess == secret_num:
+        print("Great!, You entered correct num")
+    else:
+        print("Try Hard")
+else:
+    print("better luck next time")
